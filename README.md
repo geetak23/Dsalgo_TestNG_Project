@@ -103,23 +103,18 @@ DSAlgo_TestNG
 - Verify Error Messages
 
 
-## ⚙️ Framework Design
+## Framework Design
 
      TestNG
         │
-        ▼
 Test Classes
         │
-        ▼
 Page Object Model
         │
-        ▼
 Utility Classes
         │
-        ▼
 Selenium WebDriver
         │
-        ▼
     Browser
 
 ## Running the Project
@@ -142,14 +137,17 @@ mvn test
 ## Running Individual Suites
 
 ### Sequential Execution
+
 ```bash
 testngSeq.xml
 
 ### Parallel Execution
+
 ```bash
 testng_parallel.xml
 
 ### Cross Browser Parallel Execution
+
 ```bash
 testngCrossBrowserParallel.xml
 
