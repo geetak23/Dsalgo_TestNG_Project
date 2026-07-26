@@ -34,6 +34,7 @@ The framework is designed using industry-standard automation practices including
 | Git | Version Control |
 
 ## Project Structure
+```
 DSAlgo_TestNG
 │
 ├── src
@@ -56,6 +57,7 @@ DSAlgo_TestNG
 ├── testng_parallel.xml
 ├── testngSeq.xml
 └── testngCrossBrowserParallel.xml
+```
 
 ## Features
 - Selenium WebDriver Automation
@@ -105,33 +107,23 @@ DSAlgo_TestNG
 
 ## Framework Design
 
-     TestNG
+```
+TestNG
         │
+        ▼
 Test Classes
         │
+        ▼
 Page Object Model
         │
+        ▼
 Utility Classes
         │
+        ▼
 Selenium WebDriver
         │
-    Browser
-
-## Running the Project
-
-### Clone Repository
-```bash
-git clone https://github.com/geetak23/DSAlgo_TestNG.git
-```
-
-### Install Dependencies
-```bash
-mvn clean install
-```
-
-### Execute Complete Suite
-```bash
-mvn test
+        ▼
+Browser
 ```
 
 ## Running Individual Suites
@@ -140,29 +132,51 @@ mvn test
 
 ```bash
 testngSeq.xml
+```
 
 ### Parallel Execution
 
 ```bash
 testng_parallel.xml
+```
 
 ### Cross Browser Parallel Execution
 
 ```bash
 testngCrossBrowserParallel.xml
+```
+
+---
 
 ## Reports
-After execution reports are generated under: test-output/reports/
+
+After execution reports are generated under:
+
+```
+test-output/
+reports/
+```
 
 Reports include:
+
 - Test Summary
 - Pass/Fail Status
 - Execution Time
-- Failed Screenshots 
+- Failed Screenshots (if configured)
+
+---
 
 ## Logging
-Execution logs are generated under: logs/
+
+Execution logs are generated under:
+
+```
+logs/
+```
+
 Logs help debug failures and monitor execution.
+
+---
 
 ## Framework Highlights
 - Modular Page Object Model
@@ -173,7 +187,7 @@ Logs help debug failures and monitor execution.
 - Cross Browser Support
 - Retry Analyzer for Failed Tests
 - Scalable Test Architecture
-
+---
 **Skills**
 - Selenium WebDriver
 - Java
