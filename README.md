@@ -162,7 +162,7 @@ Reports include:
 - Test Summary
 - Pass/Fail Status
 - Execution Time
-- Failed Screenshots (if configured)
+- Failed Screenshots 
 
 ---
 
